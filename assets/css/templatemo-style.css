@@ -39,18 +39,21 @@ a:hover {
 }
 
 p {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 28px;
   color: #fff;
 }
 
 h4 {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 700;
   color: #fff;
   letter-spacing: 0.25px;
 }
-
+.isotope-item p {
+  font-size: 15px;
+  line-height: normal;
+}
 img {
   width: 100%;
   overflow: hidden;
@@ -114,7 +117,7 @@ html {
   height: 70px;
   line-height: 70px;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   color: #fff;
   width: 100%;
@@ -142,7 +145,7 @@ html {
 }
 
 .menu .author-content {
-  margin: 40px 0px 60px 0px;
+  margin: 40px 0px 40px 0px;
 }
 
 .menu .author-content h4 {
@@ -150,13 +153,13 @@ html {
 }
 
 .menu .author-content span {
-  font-size: 13px;
+  font-size: 17px;
   font-style: italic;
   color: #fff;
 }
 
 .menu .social-network {
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 .menu .social-network ul li {
@@ -171,7 +174,7 @@ html {
   line-height: 40px;
   background-color: rgba(0, 0, 0, 0.2);
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
   transition: all 0.5s;
 }
 
@@ -192,7 +195,7 @@ html {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
-  font-size: 13px;
+  font-size: 17px;
 }
 
 .menu:before,
@@ -242,7 +245,7 @@ html {
 .menu-toggle {
   color: #fff;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 29px;
   position: fixed;
   right: 25px;
   top: 25px;
@@ -298,7 +301,7 @@ html {
 }
 
 .section-heading h2 {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 700;
   color: #fff;
 }
@@ -312,7 +315,7 @@ html {
 
 .section-heading span {
   margin-top: 5px;
-  font-size: 16px;
+  font-size: 20px;
   color: #fff;
   letter-spacing: 0.5px;
 }
@@ -324,7 +327,7 @@ html {
   padding: 12px 20px;
   background-color: #fff;
   color: #0f182f;
-  font-size: 13px;
+  font-size: 17px;
   font-weight: 800;
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -341,7 +344,7 @@ button {
   padding: 10px 20px;
   background-color: #fff;
   color: #0f182f;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 800;
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -405,6 +408,7 @@ button:hover {
 
 .service-item p {
   transition: all 0.5s;
+  min-height: 80px;
 }
 
 .service-item:hover {
@@ -484,7 +488,7 @@ section.my-work .section-heading {
   display: inline-block;
   margin-right: 15px;
   padding-bottom: 3px;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 700;
   border-bottom: 2px solid transparent;
   transform: ease-in-out 0.5s;
@@ -519,19 +523,30 @@ section.my-work .section-heading {
   position: relative;
   width: 48%;
   margin: 1%;
+  min-height: 400px;
+  max-height: 400px;
   border-bottom: 2px solid rgba(250, 250, 250, 0.1);
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
-
+.isotope-item figure {
+  height: 100%;
+}
 .isotope-item img {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 400px;
+  object-fit: cover;
   border-radius: 5px;
 }
+.isotope-item h4 {
+  color: #007bff !important;
+}
 
+.isotope-item p {
+  color: #0f182f;
+}
 .lazyload {
   background: #f7f7f7;
 }
@@ -568,14 +583,14 @@ figure.snip1321 h4 {
   color: #232323;
 }
 figure.snip1321 span {
-  font-size: 14px;
+  font-size: 18px;
   font-style: italic;
   display: block;
   color: #7a7a7a;
 }
 figure.snip1321 i {
   position: relative !important;
-  font-size: 18px;
+  font-size: 22px;
   background-color: #0f182f;
   width: 40px;
   height: 40px;
@@ -637,7 +652,7 @@ section.contact-me {
   border-radius: 0px;
   margin-bottom: 30px;
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
   height: 40px;
   line-height: 40px;
   width: 100%;
@@ -655,7 +670,7 @@ section.contact-me {
   border-radius: 0px;
   margin-bottom: 30px;
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
   height: 180px;
   max-height: 220px;
   line-height: 40px;
@@ -671,7 +686,13 @@ section.contact-me {
 #contact {
   text-align: center;
 }
-
+.work-ex ul {
+  list-style: disc;
+}
+.work-ex ul li {
+  display: list-item;
+  margin-left: 15px;
+}
 @media screen and (max-width: 1680px) {
   .menu {
     left: 0%;
@@ -804,4 +825,72 @@ section.contact-me {
   .isotope-toolbar {
     margin-bottom: 20px;
   }
+}
+
+.skill-img {
+  height: 30px;
+  width: auto;
+  margin: 5px 5px;
+}
+.resume-download-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.resume-download-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db; /* Updated button background color */
+  color: #ffffff; /* Button text color */
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.resume-download-button a:hover {
+  background-color: #2980b9; /* Updated button background color on hover */
+}
+
+.contact-me-section {
+  text-align: center;
+  padding: 50px;
+  background-color: #f5f5f5; /* Background color for the section */
+}
+
+.contact-me-section h2 {
+  color: #333; /* Heading color */
+}
+
+.contact-me-section p {
+  color: #666; /* Paragraph text color */
+}
+
+.contact-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contact-buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #fff; /* Button text color */
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.email-button {
+  background-color: #3498db; /* Email button background color */
+}
+
+.linkedin-button {
+  background-color: #3498db; /* LinkedIn button background color */
+}
+
+.contact-buttons a:hover {
+  background-color: #2980b9; /* Updated button background color on hover */
 }

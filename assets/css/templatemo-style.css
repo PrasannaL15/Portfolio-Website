@@ -297,7 +297,7 @@ html {
 
 .section-heading {
   text-align: center;
-  padding: 60px 45px;
+  padding: 40px 45px;
 }
 
 .section-heading h2 {
@@ -404,11 +404,13 @@ button:hover {
 
 .service-item h4 {
   transition: all 0.5s;
+  font-size: 20px;
 }
 
 .service-item p {
   transition: all 0.5s;
-  min-height: 80px;
+  min-height: 40px;
+  font-size: 16px;
 }
 
 .service-item:hover {
@@ -425,10 +427,10 @@ button:hover {
 }
 
 .service-item .service-icon {
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   display: inline-block;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   background-size: cover;
   background-repeat: no-repeat;
   transition: all 0.5s;
@@ -470,7 +472,7 @@ button:hover {
 
 section.my-work .section-heading {
   text-align: center;
-  padding: 80px 45px 50px 45px;
+  padding: 40px 45px 50px 45px;
 }
 
 .isotope-wrapper {

@@ -833,6 +833,7 @@ section.contact-me {
   height: 40px;
   width: auto;
   margin: 5px 5px;
+  margin-left: 0;
 }
 .resume-download-button {
   text-align: center;
